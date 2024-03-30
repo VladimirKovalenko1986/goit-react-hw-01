@@ -1,0 +1,39 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.head {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.trHead {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trBody {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trBody:nth-child(2n) {
+    background-color: rgb(221, 220, 220);
+}
+
+.th {
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(70, 64, 64);
+    padding: 10px;
+    font-size: 22px;
+}

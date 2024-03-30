@@ -1,0 +1,53 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.titleName {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.titleContact {
+    font-size: 28px;
+    color: rgb(143, 136, 136);
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid rgb(132, 129, 129);
+
+    background-color: rgb(233, 226, 226);
+}
+
+.textStatistic {
+    font-size: 28px;
+}
+.textLiks {
+    font-size: 28px;
+    font-weight: 700;
+}

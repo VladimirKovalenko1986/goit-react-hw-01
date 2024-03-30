@@ -1,0 +1,28 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.textStatus {
+    font-size: 16px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
